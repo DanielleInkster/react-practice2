@@ -3,12 +3,7 @@ import Table from './Table'
 
 class App extends Component {
     state = {
-        characters: [
-            {
-            name: 'Charlie',
-            job: 'Janitor'
-            }
-        ]
+        characters: [],
     };
 
     removeCharacter = index => {
@@ -19,10 +14,6 @@ class App extends Component {
                 return i !== index;
             })
         });
-    }
-
-    handleSubmit = character => {
-        this.setState({characters: [...this.state.characters, character]});
     }
 
     render() {
