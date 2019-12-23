@@ -29,7 +29,7 @@ class App extends Component {
             <div className="container">
                 <Table characterData={characters} removeCharacter={this.removeCharacter}/>
                 <Form handleSubmit={this.handleSubmit}/>
-                <input type="button" value="Submit" onClick={this.submitForm} />
+                {/* <input type="button" value="Submit" onClick={this.submitForm} /> */}
             </div>
         )
     }
