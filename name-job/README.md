@@ -1,6 +1,6 @@
 # Practice with React (The Sequel)
 
-In an effort to get more practicegi with React, I completed a tutorial found here: 
+In an effort to get more practice with React, I completed a tutorial found here: 
 https://www.taniarascia.com/getting-started-with-react/
 
 This was a tutorial  to complete a simple form to display names and occupations. The program can add, display and delete name/occupations. 
